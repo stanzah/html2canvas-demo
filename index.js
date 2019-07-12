@@ -27,6 +27,7 @@ window.onload = () => {
       logging: true,
       width: width,
       height: height,
+      useCORS: true
     };
     html2canvas(eles, opts).then(function (canvas) {
       let dataUrl = canvas.toDataURL();
