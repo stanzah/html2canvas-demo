@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>demo</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    div {
+      width: 100%;
+      height: 50%;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .child {
+      background: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mother" id="mother">
+    <img src="http://c.h5tu.com/h5/test.png">
+  </div>
+  <div class="child">
+    produced img will show down below
+    <img src="" alt="" id="child" crossOrigin="anonymous">
+  </div>
+</body>
+
+</html>
+
+<script src="./html2canvas.js"></script>
+<script src="./index.js"></script>
